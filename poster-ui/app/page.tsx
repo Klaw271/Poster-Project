@@ -5,7 +5,7 @@ import Web3 from "web3";
 import { PosterABI } from '../utils/contractABI';
 
 // ЗАМЕНИТЕ на адрес вашего контракта после деплоя
-const CONTRACT_ADDRESS = "0xC1911439d81d4f7A1fE0eb17415E4f52606C09ac";
+const CONTRACT_ADDRESS = "";
 
 const SEPOLIA_CHAIN_ID = '0xaa36a7'; // 11155111 в hex
 const SEPOLIA_RPC_URL = "https://ethereum-sepolia-rpc.publicnode.com";
