@@ -21,3 +21,44 @@ A simple decentralized guestbook application built on Ethereum Sepolia testnet.
 ```solidity
 event NewPost(address indexed user, string content, string indexed tag);
 function post(string memory content, string memory tag) public;
+```
+
+Technologies Used
+Smart Contracts
+
+    Solidity ^0.6.12
+
+    Truffle Framework
+
+    Ethereum Sepolia Testnet
+
+Frontend
+
+    Next.js 14
+
+    React
+
+    Web3.js
+
+    MetaMask
+
+Setup Instructions
+Smart Contracts
+```bash
+
+cd poster-contract
+npm install
+truffle compile
+truffle migrate --network sepolia
+```
+Frontend
+```bash
+
+cd poster-ui
+npm install
+npm run dev
+```
+
+Contract Address
+
+`0x... - Deployed on Sepolia testnet`
